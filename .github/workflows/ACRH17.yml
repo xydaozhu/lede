@@ -8,11 +8,11 @@
 name: ACRH17
 
 on:
-  schedule:
-    - cron: 0 20 * * *
-  push:
-    branches:
-      - master
+  # schedule:
+  #   - cron: 0 20 * * *
+  # push:
+  #   branches:
+  #     - master
   release:
     types: [published]
 
